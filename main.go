@@ -15,7 +15,5 @@ func main() {
 		return
 	}
 
-	words := strings.Split(sentence, " ")
-
-	fmt.Println(len(words))
+	fmt.Println(len(strings.Split(sentence, " ")))
 }
